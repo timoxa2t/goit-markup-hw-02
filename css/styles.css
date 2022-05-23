@@ -238,6 +238,7 @@ body {
 
 .footer-link {
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
