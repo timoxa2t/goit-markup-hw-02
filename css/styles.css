@@ -8,7 +8,7 @@
   --main-background-color: #ffffff;
   --main-font-size: 14px;
   --main-letter-spacing: 0.03em;
-  --main-font-weight: 700;
+  --title-font-weight: 700;
   --site-title-color: #000000;
   --hero-background: #2f303a;
   --hero-action-background: #188ce8;
@@ -26,12 +26,12 @@ body {
   background: var(--main-background-color);
   font-size: var(--main-font-size);
   color: var(--main-color);
-  font-weight: var(--main-font-weight);
 }
 
 .section-title {
   font-size: 36px;
   line-height: 1.17;
+  font-weight: var(--title-font-weight);
 }
 
 .header {
@@ -51,6 +51,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--site-title-color);
+  font-weight: var(--title-font-weight);
 }
 
 .text-blue {
@@ -122,7 +123,7 @@ body {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
-  font-weight: 700;
+  font-weight: var(--title-font-weight);
   background: var(--action-background);
   box-shadow: 0px 4px 4px var(--hero-shadow-color);
   border-radius: 4px;
@@ -156,6 +157,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-color);
+  font-weight: var(--title-font-weight);
 }
 
 .advantages-list-item-text {
@@ -222,6 +224,7 @@ body {
 }
 
 .footer-title-link {
+  font-weight: var(--title-font-weight);
   font-family: var(--seondary-font);
   text-decoration: none;
   font-size: 26px;
@@ -290,7 +293,7 @@ body {
 }
 
 .project-name {
-  font-weight: 700;
+  font-weight: var(--title-font-weight);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
